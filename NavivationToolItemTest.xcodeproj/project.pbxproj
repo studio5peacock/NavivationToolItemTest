@@ -15,6 +15,8 @@
 		58075A321D17626600F5441F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58075A301D17626600F5441F /* LaunchScreen.storyboard */; };
 		58075A3D1D17626600F5441F /* NavivationToolItemTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075A3C1D17626600F5441F /* NavivationToolItemTestTests.m */; };
 		58075A481D17626600F5441F /* NavivationToolItemTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075A471D17626600F5441F /* NavivationToolItemTestUITests.m */; };
+		58075A581D17656C00F5441F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075A561D17656C00F5441F /* SecondViewController.m */; };
+		58075A591D17656C00F5441F /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58075A571D17656C00F5441F /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		58075A431D17626600F5441F /* NavivationToolItemTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavivationToolItemTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58075A471D17626600F5441F /* NavivationToolItemTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavivationToolItemTestUITests.m; sourceTree = "<group>"; };
 		58075A491D17626600F5441F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58075A551D17656C00F5441F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		58075A561D17656C00F5441F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		58075A571D17656C00F5441F /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +107,9 @@
 			isa = PBXGroup;
 			children = (
 				58075A251D17626600F5441F /* AppDelegate.h */,
+				58075A551D17656C00F5441F /* SecondViewController.h */,
+				58075A561D17656C00F5441F /* SecondViewController.m */,
+				58075A571D17656C00F5441F /* SecondViewController.xib */,
 				58075A261D17626600F5441F /* AppDelegate.m */,
 				58075A281D17626600F5441F /* ViewController.h */,
 				58075A291D17626600F5441F /* ViewController.m */,
@@ -243,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58075A591D17656C00F5441F /* SecondViewController.xib in Resources */,
 				58075A321D17626600F5441F /* LaunchScreen.storyboard in Resources */,
 				58075A2F1D17626600F5441F /* Assets.xcassets in Resources */,
 				58075A2D1D17626600F5441F /* Main.storyboard in Resources */,
@@ -270,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58075A581D17656C00F5441F /* SecondViewController.m in Sources */,
 				58075A2A1D17626600F5441F /* ViewController.m in Sources */,
 				58075A271D17626600F5441F /* AppDelegate.m in Sources */,
 				58075A241D17626600F5441F /* main.m in Sources */,
@@ -498,6 +508,7 @@
 				58075A4E1D17626600F5441F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58075A4F1D17626600F5441F /* Build configuration list for PBXNativeTarget "NavivationToolItemTestTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +517,7 @@
 				58075A511D17626600F5441F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58075A521D17626600F5441F /* Build configuration list for PBXNativeTarget "NavivationToolItemTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +526,7 @@
 				58075A541D17626600F5441F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
