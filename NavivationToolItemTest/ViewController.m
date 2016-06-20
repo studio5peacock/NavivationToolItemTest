@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "SecondViewController.h"
 @interface ViewController ()
 
 @end
@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
+   
     
 }
 
@@ -26,4 +26,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)testBtnClicked:(id)sender {
+    
+    SecondViewController* secondCtrl=[[SecondViewController alloc] init];
+    UINavigationController* nav=[[UINavigationController alloc] initWithRootViewController:secondCtrl];
+    [self presentViewController:nav animated:YES completion:nil];
+}
 @end

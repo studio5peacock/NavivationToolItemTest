@@ -17,6 +17,11 @@
 		58075A481D17626600F5441F /* NavivationToolItemTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075A471D17626600F5441F /* NavivationToolItemTestUITests.m */; };
 		58075A581D17656C00F5441F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58075A561D17656C00F5441F /* SecondViewController.m */; };
 		58075A591D17656C00F5441F /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58075A571D17656C00F5441F /* SecondViewController.xib */; };
+		58075A5F1D17686400F5441F /* addgreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 58075A5A1D17686400F5441F /* addgreen.png */; };
+		58075A601D17686400F5441F /* deletegray.png in Resources */ = {isa = PBXBuildFile; fileRef = 58075A5B1D17686400F5441F /* deletegray.png */; };
+		58075A611D17686400F5441F /* deleteorange.png in Resources */ = {isa = PBXBuildFile; fileRef = 58075A5C1D17686400F5441F /* deleteorange.png */; };
+		58075A621D17686400F5441F /* goback.png in Resources */ = {isa = PBXBuildFile; fileRef = 58075A5D1D17686400F5441F /* goback.png */; };
+		58075A631D17686400F5441F /* nextgreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 58075A5E1D17686400F5441F /* nextgreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,11 @@
 		58075A551D17656C00F5441F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		58075A561D17656C00F5441F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		58075A571D17656C00F5441F /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		58075A5A1D17686400F5441F /* addgreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addgreen.png; sourceTree = "<group>"; };
+		58075A5B1D17686400F5441F /* deletegray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deletegray.png; sourceTree = "<group>"; };
+		58075A5C1D17686400F5441F /* deleteorange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteorange.png; sourceTree = "<group>"; };
+		58075A5D1D17686400F5441F /* goback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goback.png; sourceTree = "<group>"; };
+		58075A5E1D17686400F5441F /* nextgreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextgreen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +124,11 @@
 				58075A281D17626600F5441F /* ViewController.h */,
 				58075A291D17626600F5441F /* ViewController.m */,
 				58075A2B1D17626600F5441F /* Main.storyboard */,
+				58075A5A1D17686400F5441F /* addgreen.png */,
+				58075A5B1D17686400F5441F /* deletegray.png */,
+				58075A5C1D17686400F5441F /* deleteorange.png */,
+				58075A5D1D17686400F5441F /* goback.png */,
+				58075A5E1D17686400F5441F /* nextgreen.png */,
 				58075A2E1D17626600F5441F /* Assets.xcassets */,
 				58075A301D17626600F5441F /* LaunchScreen.storyboard */,
 				58075A331D17626600F5441F /* Info.plist */,
@@ -252,7 +267,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				58075A591D17656C00F5441F /* SecondViewController.xib in Resources */,
+				58075A631D17686400F5441F /* nextgreen.png in Resources */,
 				58075A321D17626600F5441F /* LaunchScreen.storyboard in Resources */,
+				58075A5F1D17686400F5441F /* addgreen.png in Resources */,
+				58075A611D17686400F5441F /* deleteorange.png in Resources */,
+				58075A621D17686400F5441F /* goback.png in Resources */,
+				58075A601D17686400F5441F /* deletegray.png in Resources */,
 				58075A2F1D17626600F5441F /* Assets.xcassets in Resources */,
 				58075A2D1D17626600F5441F /* Main.storyboard in Resources */,
 			);
